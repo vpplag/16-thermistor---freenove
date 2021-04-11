@@ -1,2 +1,4 @@
-basic.showString("" + Freenove.Thermistor(AnalogPin.P0) + "C")
-basic.pause(1000)
+basic.forever(function () {
+    basic.showString("" + Freenove.Thermistor(AnalogPin.P0) + "C")
+    basic.pause(1000)
+})
